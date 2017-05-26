@@ -1,0 +1,54 @@
+body {
+  font-family: 'Oswald';
+  background-color: #263238;
+  color: white;
+}
+article {
+  width: 600px;
+  margin: 20% auto 1% auto;
+  background-color: #313e45;
+  border-radius: 15px;
+}
+#day {
+  margin: 0 auto;
+}
+#date {
+  margin: 5px auto;
+}
+#city-country {
+  margin: 5px auto;
+}
+.image{
+  margin: 10% auto 5% auto;
+  font-size: 8em;
+}
+.border-top {
+  border-top: 3px solid #263238;
+}
+.border-right {
+  border-right: 3px solid #263236;
+}
+#temp {
+  display: inline-block;
+  font-size: 6em;
+  margin-right: 10px;
+  cursor: pointer;  
+}
+.symbol {
+  display: inline-block;
+  font-size: 7em;  
+}
+#wind {
+  padding-top: 15px;
+}
+a {
+  margin-bottom: 10%;
+}
+
+   /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+    
+      article {
+        width: 100%;
+      }
+    }

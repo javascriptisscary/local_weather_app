@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.css">
+    <link rel="stylesheet" href="weather_styles.css">
+  </head>
+<body>
+  <section class="container text-center">
+    <article>
+      <div class="row">
+        <div class="col-xs-12 col-sm-6">
+          <h2>Local Weather App</h2>
+          <h3 id="day">day</h3>
+          <p id="date">date</p>
+          <p id="city-country"></p>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          <h3 id="description">weather status</h3>
+          <i class="image wi"></i>
+        </div>
+      </div>
+      <div class="border-top row">
+        <div class="border-right col-xs-12 col-sm-6">
+          <h1 id="temp"></h1>
+          <i class="symbol wi wi-fahrenheit"></i>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          <h4 id="wind">wind</h4>
+          <h4 id="humidity">humidity</h4>
+          <h4 id="pressure">pressure</h4>
+        </div>
+      </div>
+    </article>
+    <a href="http://kgoulddev.com">kgoulddev.com</a>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="weather.js"></script>
+</body>
+</html>
